@@ -1,0 +1,54 @@
+.widgets {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.widgets__header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.widgets__header > h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.widgets__article {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.widgets__article:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.widgets__articleLeft{
+    margin-right: 10px;
+}
+
+.widgets__articleLeft > widgets__icon {
+    font-size: 14px;
+}
+.widgets__articleRight{
+    flex: 1;
+}
+.widgets__articleRight > h4 {
+    font-size: 15px;
+
+}
+
+.widgets__articleRight > p {
+    font-size: 13px;
+    color: gray;
+
+}
